@@ -3,6 +3,5 @@
         materialized='table'
     )
 }}
-
-SELECT *
-FROM raw.globalmart.orders
+SELECT * 
+FROM raw.globalmart.customer
